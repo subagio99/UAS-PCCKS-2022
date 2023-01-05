@@ -13,4 +13,4 @@ jobs:
 
     
     - name: push to dockerhub
-      run: docker login -u ${{UAS_PCCKS_2022.[subagio99]}} -p ${{UAS_PCCKS_2022.[dckr_pat_aSb1zqLI3Bqw5ufLF0yj1fBGU0c]}} && docker push subagio99/uas-pccks:latest
+      run: docker login -u subagio99 -p dckr_pat_aSb1zqLI3Bqw5ufLF0yj1fBGU0c && docker push subagio99/uas-pccks:latest
