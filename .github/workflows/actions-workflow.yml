@@ -9,7 +9,7 @@ jobs:
     
     - name: build and tag image
       run: |
-        docker build -t subagio99/uas-pccks:latest -f Dockerfile .
+        docker build -t subagio99/uaspccks:latest -f Dockerfile .
 
     
     - name: push to dockerhub
