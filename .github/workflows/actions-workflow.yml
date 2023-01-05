@@ -13,4 +13,4 @@ jobs:
 
     
     - name: push to dockerhub
-      run: docker login -u ${{secrets.subagio99}} -p ${{secrets.dckr_pat_aSb1zqLI3Bqw5ufLF0yj1fBGU0c}} && docker push subagio99/uaspccks:latest
+      run: docker login -u subagio99 -p dckr_pat_aSb1zqLI3Bqw5ufLF0yj1fBGU0c && docker push subagio99/uaspccks:latest
